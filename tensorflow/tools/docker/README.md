@@ -67,7 +67,7 @@ just run
 This one requires a few steps, since we need the NVidia headers to be available
 *during* the build step, but we don't want them included in the final container
 image. We need to start by installing the NVidia libraries as described in the
-[CUDA setup instructions](/get_started/os_setup.md#install_cuda). With that
+[CUDA setup instructions](/tensorflow/g3doc/get_started/os_setup.md#install_cuda). With that
 complete, we can build via
 
     $ cp -a /usr/local/cuda .
